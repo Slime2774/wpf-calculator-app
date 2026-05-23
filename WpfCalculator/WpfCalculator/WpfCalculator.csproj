@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="Class_Library">
+      <HintPath>C:\Users\rezsi\OneDrive\Рабочий стол\Class_Library\Class_Library\bin\Debug\net8.0\Class_Library.dll</HintPath>
+    </Reference>
+    <Reference Include="WpfLibrary">
+      <HintPath>..\..\WpfLibrary\WpfLibrary\bin\Debug\net8.0\WpfLibrary.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
